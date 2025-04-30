@@ -19,3 +19,23 @@ git config --user.name
 git config --user.email for author
 mkdir add folder
 touch add files and txt documents also
+git pull --rebase
+
+
+-------------
+what is branch
+A. copy of data from main /master branch.
+release to customer is called release branch
+whirl release to the customer if any issue or small updates is there create a new branch name is called hotfix branch
+
+1. Main branch
+2. Release branch
+3. Hot fix branch
+
+-------
+
+git --version
+
+git branch
+
+
