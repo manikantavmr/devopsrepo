@@ -39,3 +39,9 @@ git --version
 git branch
 
 
+git checkout
+git branch
+git branch br name
+git push origin br nam
+git push -d brname
+git push -D brname
