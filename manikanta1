@@ -1,3 +1,6 @@
+
+
+
 git commits
 pwd
 ll
@@ -45,3 +48,22 @@ git branch br name
 git push origin br nam
 git push -d brname
 git push -D brname
+
+
+git add .
+git commit -m""
+git status
+git log
+git clone
+git push
+git init hidden file creation
+ work space---indexing--local repo
+
+ ---------------
+
+
+ git brnach name
+ git branch available branches will show
+ git checkout br name ---change the branch
+ git merge
+
