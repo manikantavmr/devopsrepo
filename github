@@ -17,4 +17,5 @@ git log to view the history of commits for a repositary
 git clone <repo url>----------clong of the repository download from github account
 git push ---push the changes to the central reposatory
 git show (conmit id) ---what the changes has done in file in speciic commit id
+git pull -----to pull all changes to remote repostory into the branch
 
