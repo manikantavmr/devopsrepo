@@ -18,4 +18,12 @@ git clone <repo url>----------clong of the repository download from github accou
 git push ---push the changes to the central reposatory
 git show (conmit id) ---what the changes has done in file in speciic commit id
 git pull -----to pull all changes to remote repostory into the branch
+git branch --create new branch
+git branch -b branch name --- crete branch name
+git branch -- list ---already available branches
+git branch -d brnch name -----delete branch
+git brnach -D brname ------forcefully delete
+git fork ----copy data of the main reposortory to resolve the issue bugs for helpful.
+git checkout branch name ---to switch to another branch
+git branch -m<old name ><new name>  -------rename the branch
 
