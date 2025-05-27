@@ -1,0 +1,12 @@
+pwd file status
+touch file - new file create
+mkdir - new folder create
+cd -enter into different folders
+rm -rf --delete folder
+cat --content of the file
+cntrl +l  ----clear terminal
+cntrl +C ----cancle the ternmianl
+git init ---create an hidden file
+git confg - global config user.name
+git config -global user.email   ---------sets author email and name
+
