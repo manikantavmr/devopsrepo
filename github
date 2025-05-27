@@ -9,4 +9,12 @@ cntrl +C ----cancle the ternmianl
 git init ---create an hidden file
 git confg - global config user.name
 git config -global user.email   ---------sets author email and name
+t status ---list which files are staged, unstaged and untracked
+git add filename or git add . ---unstaged to tracked or add files to staging area
+git commit -m"" ----what changes we did in the files.
+
+git log to view the history of commits for a repositary
+git clone <repo url>----------clong of the repository download from github account
+git push ---push the changes to the central reposatory
+git show (conmit id) ---what the changes has done in file in speciic commit id
 
