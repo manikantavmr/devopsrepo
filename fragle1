@@ -1,0 +1,13 @@
+hi
+this is manikanta
+in repo all files has to delete means you can use rm -rf *
+
+most dangerous commit in github
+
+git brnach -d br name --- delete the brnach
+git brnach -D ---forcefully delete the branch
+
+if any branch add to origin repo you can ad  by using below commit
+
+git push origin github reponame
+
