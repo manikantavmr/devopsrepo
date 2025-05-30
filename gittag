@@ -1,0 +1,10 @@
+git tag --list -----tags list will be show
+git tag <tag name> -------create new tag
+git diff <tagname1> <tag name 2>
+git tag -d <tag name>
+git tag -a tag name commit id =-----old project new tag added
+git tag -a old tag name -f new commit id
+git push to orgin or local repo
+
+git push origin --tags -----------multiple
+git push origin tagname  ----single
