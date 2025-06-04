@@ -26,4 +26,17 @@ git brnach -D brname ------forcefully delete
 git fork ----copy data of the main reposortory to resolve the issue bugs for helpful.
 git checkout branch name ---to switch to another branch
 git branch -m<old name ><new name>  -------rename the branch
+============================================
+git tag new tag 
+git tag --list -----------available tages list will be reflect
+git tag -a tag name -m"comments of the tag"
+git tag -d tag name ---------tag delete
+
+tag diff tag1 tag2
+
+tag modifictaion   git tag -a tag name -f commit id new commit id
+tag push ---------git push origin -----main repositery
+git push origin tag name one tag
+how many tags are added in repostitery checking v1.*
+
 
