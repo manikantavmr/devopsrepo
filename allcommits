@@ -1,0 +1,51 @@
+pwd  ----status
+touch  ---file creating
+mkdir ------directory creating
+muliy files creating touch fle1 file2
+multi folder or directory creating ----mkdir folde1 folder2
+list types ll ls ls-lrth la
+git init  -------hidden files creating
+git add .
+git commit -m""
+git show
+git log
+cat view of the file
+cd enter the file
+cd .. revoke the file
+git pull git fetch +git merge
+git pull
+git push
+**while apply the git push if any error getting we should use the commit git --rebase
+
+
+git branch ----available branches will be reflect 
+git branch brname
+git checkout ----sitch to another branch
+git brnach origin repo name --- merge to main brach
+git push -d brname ----delete brnach
+git push  _D brname ---forcefully delete
+rm -rf  -----delete files
+cntrl +l ----clear
+cntrl +c -----close the terminal
+git config . global conig.username
+git config .global config.email
+git log --list oneline ----all commits will be reflect
+git branch --list
+git branch --br name
+git fork ---copy data of the main repositery to resolve the issuebugs for helpful.
+git branch -m<old name><new branch>    rename the branch
+git cherry-pick ---particular file to add main brancht
+==================================================================
+git tag -----available tags
+gi tag --list
+git tag -a tag name -m""
+git tag -d tag name
+git tag -D tqg name ---forceful delete
+tag diff tag1 tag2
+git tag -a tagname -f old commit id new commit id
+tag push --git push origin--main repaositery
+git push origin tagname
+how many tags are available tag name*
+git history
+=========================================
+
