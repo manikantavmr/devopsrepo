@@ -58,4 +58,4 @@ git stash apply ------last stash file come to workspace
 git stash drop -----last stash file come to work space and deleted the stash file in stash list
 git stash pop ------at a time file come to work space and remove in status list
 git stash -u -----------untraced files also stash
-
+git stash branch brname ---------------file stash onwards create a new branch
