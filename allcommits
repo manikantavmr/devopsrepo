@@ -51,4 +51,7 @@ git history
 =========================================
 git stash
 
+git stash list -----available files stash list will be reflet
+git stash apply ----last stash file will be come to work space
+git stash push ----file saved in stash list
 
