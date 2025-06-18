@@ -54,4 +54,8 @@ git stash
 git stash list -----available files stash list will be reflet
 git stash apply ----last stash file will be come to work space
 git stash push ----file saved in stash list
+git stash apply ------last stash file come to workspace
+git stash drop -----last stash file come to work space and deleted the stash file in stash list
+git stash pop ------at a time file come to work space and remove in status list
+git stash -u -----------untraced files also stash
 
