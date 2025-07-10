@@ -2,8 +2,6 @@ pwd  ----status
 touch  ---file creating
 mkdir ------directory creating
 muliy files creating touch fle1 file2
-multi folder or directory creating ----mkdir folde1 folder2
-list types ll ls ls-lrth la
 git init  -------hidden files creating
 git add .
 git commit -m""
@@ -59,3 +57,55 @@ git stash drop -----last stash file come to work space and deleted the stash fil
 git stash pop ------at a time file come to work space and remove in status list
 git stash -u -----------untraced files also stash
 git stash branch brname ---------------file stash onwards create a new branch
+
+========================
+new linux commits
+esc +o ==new line stating
+esc +k == cursor movi headside
+esc +j ===cusrsor move bottom side
+esc +x == delete one letter
+esc +dd ==delete total line
+esc +ndd ==  number of lines delete
+esc +dw ===word delete
+esc:set number ===number will be reflicet
+esc:set nonumber  ====number will be remove
+==============================
+AWS
+
+whoami ----hostname of the server
+sudo su -  ----root user
+hostname ==== hostname will be reflect
+server -IP ===server name will be reflect
+uname ====username information will be show
+uname -a ===complete details will be reflect
+hostname set -hostname <new name>
+date ====date will be show
+pwd === project work directory 
+uptime ==== in aws total how much time used
+touch ====files creating
+mkdir ===folders creating
+rm -rf  ===files deleting
+ls, ll ls-a'ls -lrth view types of the files
+cd ===change diretory
+cd .. ====one step back to repositery
+cat ===directory or file information
+yum install <server name> ====we can down load the server in AWS 
+yum uninstall <server name> =====we can uninstall the server in AWS
+/ ====root user or top directory user
+opt === folder we can practice
+tree ==== folders will be reflect in tree model
+cp- rp <src path> <change path>======copy paste the files
+mv <src path> <change path>=========cut paste the file
+wc ===word count in the folder
+wc -a =====letter in the file
+wc -l  ==== lines in the file
+useradd ====we can create an user in aws account
+passwd ====password or reset password of the username
+tail -n path ====n lines of the top linesfile data will be reflect
+head -n path ==== n lines of the bottom data will be reflect
+nG === number of lines can be reflect
+man directory name ===how to use the commands available commits will be show
+ ========================
+
+
+
