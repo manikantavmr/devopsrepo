@@ -106,6 +106,109 @@ head -n path ==== n lines of the bottom data will be reflect
 nG === number of lines can be reflect
 man directory name ===how to use the commands available commits will be show
  ========================
+Managing files and folder permissions
 
+d--directory
+- ---file
+l ---link
+s ----socket
+c--charcter device
+b ----block device
+
+types of users ---3
+1. user
+2. Group user
+3. other user
+
+permissions are 2 types
+1.Alphabet
+2.Numeric
+
+read ==4
+write ==2 
+execute ==1
+
+rwx ==7
+
+In alohabet
+
+user ==u
+group user ==G
+other user ==O
+permission command is chmod.
+
+Example chmod 400 filename
+for user all permissions rwx
+group user  no permissions
+other user no permission
+
+chmod 777 file name
+all user all permissions
+group user all permissions
+other user all permissions
+
+chmod rwxr--r--
+all permissions for user
+read permission for group uesr
+read permission for other user
+
+How to add permissons in alphabet process
+ +  =add
+ - remove
+ = set
+ a ==everyone or all
+
+ How to check detail in file permissions 
+ getfacl file name
+
+ then owner
+ group
+ permissions details will be reflect clearly
+
+ Folder permissions change 
+
+ chmod -R file <permission>file name
+
+ Owner change
+
+ EX current owner is root
+ new owner is ec2 -user
+
+ chown <root> :<ec2> filename
+===================================================
+ create user
+
+useradd <new user name>
+passwd minimum 8 characters
+username and password details will be reflect in etc/passwd folder and /etc/shadow folder
+
+last 10 lines required then command 
+tail -n 10 /etc/passwd
+
+top 10 lines required 
+head -n 10 /etc/passwd
+
+user name and passwd change also same 
+for new user details can be use command getent /etc/passwd
+==========================================================================
+
+new user don't have the permission for install or modifiactions anything due to wheel permission not enable hence we can enable wheel group permission through root user 
+
+sudoer etc/sudoers
+
+visudo command giving the permission for wheel
+=======================================================================
+user modification:
+
+usermod -aG wheel new username
+
+userdel ---for deleting the user
+
+===================================================
+
+loginrestrictions:
+
+usermod -S /sbin/nologin <username> -----nologin or denied permissions
+usermod -s /biln/bash  <username >-----------giving permission for user
 
 
